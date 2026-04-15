@@ -1,0 +1,39 @@
+# NEVER commit secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Run outputs (date-stamped files — keep .gitkeep, ignore content)
+sources/*.json
+output/*.docx
+output/*.md
+# Word temporary lock files (created when a .docx is open)
+output/~$*
+
+# Logs
+logs/
+
+# Claude Code local settings (machine-specific paths and permissions)
+.claude/settings.local.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
