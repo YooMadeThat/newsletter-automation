@@ -7,13 +7,13 @@ Policy + Regulation service group. NZ and AU equal priority.
 
 ## What this does
 
-Runs a fully automated 6-step pipeline every Tuesday at 8:00am:
+Runs a fully automated 6-step pipeline every Monday at 8:00am:
 
 1. Searches for recent NZ and AU policy and regulation items via Perplexity
 2. Scores, ranks, and selects the strongest 3–5 items (triage)
 3. Writes a structured brief for each item
 4. Runs a hard-rules validation pass
-5. Assembles the full newsletter output (4-section Markdown)
+5. Assembles the full newsletter output 
 6. Renders a formatted Word document
 
 No human intervention is required. The final Word document is saved to the
@@ -23,7 +23,7 @@ No human intervention is required. The final Word document is saved to the
 
 ## Schedule
 
-The workflow runs automatically every **Tuesday at 8:00am** via macOS launchd.
+The workflow runs automatically every **Monday at 8:00am** via macOS launchd.
 
 | File | Purpose |
 |---|---|
